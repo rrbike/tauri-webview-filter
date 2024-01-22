@@ -1,0 +1,18 @@
+<html>
+  <head>
+    Redirect...
+  </head>
+  <body>
+    Redirect, please wait...
+  </body>
+  <script>
+    const search = new URLSearchParams(window.location.search);
+    const toPage = search.get('toPage');
+
+    if (toPage) {
+        window.location.replace(toPage);
+    }
+
+    console.warn('toPage? ', toPage);
+  </script>
+</html>

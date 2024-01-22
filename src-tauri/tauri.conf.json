@@ -45,7 +45,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.app.123",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -76,7 +76,8 @@
         "resizable": true,
         "title": "App 123",
         "width": 800,
-         "decorations": false
+        "decorations": false,
+        "url": "#"
       }
     ]
   }
