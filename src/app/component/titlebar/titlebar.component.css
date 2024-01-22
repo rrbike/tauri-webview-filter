@@ -5,9 +5,8 @@
     min-width: 150px;
     width: 100%;
     justify-content: space-between;
-    border-bottom: solid 4px;
-    padding-bottom: 10px;
-    
+    background: linear-gradient(85deg, rgba(2,0,36,1) 0%, rgba(121,41,9,0) 0%, rgba(255,8,0,0.28335084033613445) 100%);
+
     a {
         text-decoration: none;
         padding: 15px;

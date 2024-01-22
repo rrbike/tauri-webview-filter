@@ -1,5 +1,7 @@
 <div class="column-layout">
-  <app-titlebar />
-  <router-outlet />
+  <app-titlebar data-tauri-drag-region/>
+  <div class="slot-with-gap">
+    <router-outlet />
+  </div>
 </div>
 
